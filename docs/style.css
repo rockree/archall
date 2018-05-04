@@ -86,8 +86,23 @@ iframe {
 			}
 
 	.topbutton img {
-		width: 55px;
 		height: auto;
+	}
+
+	.about-discription {
+		padding: 10px;
+	}
+
+	.member-discription {
+		padding: 10px;
+	}
+
+	.about-discography {
+		padding: 10px;
+	}
+
+	.about-photo {
+		padding: 10px;
 	}
 
 
