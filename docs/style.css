@@ -35,7 +35,7 @@ body {
 .main-header img {
 	display: flex;
 	margin-top: 20px;
-	max-width: 400px;
+	max-width: 370px;
 	width: 100%;
 	height: auto;
 
@@ -168,7 +168,7 @@ iframe {
 @media screen and (max-width: 670px) {
 
 	.content-title img {
-		width: 400px;
+		width: 370px;
   		overflow: visible;
   }
 
@@ -283,7 +283,8 @@ iframe {
 
 .discography-image img {
 	float: left;
-	
+	margin-top: 30px;
+
 }
 
 .discography-content {
@@ -351,7 +352,7 @@ background-color: #9e0e2b;
 @media screen and (max-width: 670px) {
 
 	.info-title img {
-		width: 400px;
+		width: 370px;
   		overflow: visible;
 	}
 	
@@ -363,6 +364,28 @@ background-color: #9e0e2b;
 	    height: 200px;
 	}
 
+	.rin p {
+		text-align: left;
+	}
+
+	.azu {
+		margin-top: 60px;
+	}
+
+	.azu p {
+		text-align: left;
+	}
+
+
+	.maru {
+		margin-top: 60px;
+	}
+
+	.maru p {
+		text-align: left;
+	}
+
+
 
 	.two {
 		margin-top: 890px;
@@ -373,11 +396,27 @@ background-color: #9e0e2b;
 	    height: 20px;
 	}
 
+	.sakairi {
+		margin-top: 200px;
+	}
+
+	.sakairi p {
+		text-align: left;
+	}
+
+	.yui {
+		margin-top: 60px;
+	}
+
+	.yui p {
+		text-align: left;
+	}
+
 
 	.discography-title img {
 
-		margin-top: 800px;
-		width: 400px;
+		margin-top: 1080px;
+		width: 370px;
 	  	overflow: visible;
 
 	}
@@ -392,7 +431,7 @@ background-color: #9e0e2b;
 	}
 
 	.img-1 {
-		margin-top: 70px;
+		margin-top: 30px;
 		margin-bottom: 30px;
 	}
 
