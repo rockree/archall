@@ -1,0 +1,265 @@
+﻿@charset UTF-8;
+
+
+/* ================================================ */
+/*               全体設定                */
+/* ================================================ */
+
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif, Verdana, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+	background-color: #c0dde5;
+}
+
+
+/* ================================================ */
+/*ヘッダー：など場所をこまめに書く！*/
+/* ================================================ */
+
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+
+
+
+
+.inner {
+	margin: 0 auto;
+	width:1000px;
+}
+
+.main-header img {
+	margin-top: 16px;
+	margin-right: 50px;
+
+}
+
+.topbutton {
+	display: flex;
+	justify-content:space-between;
+	padding: 20px;
+
+
+}
+
+
+.clear {
+	clear: both;
+}
+
+}
+
+
+
+
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+
+.content-title  {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 28px;
+	width: 100%;
+}
+
+
+
+.photo-slider img {
+	margin-top: 64px;
+	width: 415px;
+	height: 350px;
+	padding-right: 80px; 
+
+}
+
+.discription {
+	margin-top: 64px;
+	background-image: url(images/about-img.png);
+	width:50%;
+	background-size: 500px;
+	background-repeat: no-repeat;
+	padding: 90px 0 0 60px;
+
+
+}
+
+.discription p {
+	font-family: YuGothic;
+	font-size: 20px;
+	margin: 0;
+	padding: 0px;
+
+	
+	
+
+}
+
+.about-section {
+	display: flex;
+}
+
+}
+
+
+/* ================================================ */
+/*メインコンテンツ*/
+/* ================================================ */
+
+
+
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+
+.info-title {
+	margin-top: 64px;
+	text-align: center;
+	font-size: 28px;
+	width: 100%;
+}
+
+
+
+
+.three img {
+	width: 230px;
+	height:230px;
+	padding-bottom: 15px;
+ 
+
+}
+
+.three {
+	display: flex;
+    justify-content:space-between;
+    padding-top: 64px;
+}
+
+.three div {
+	width: 240px;
+}
+
+.three p {
+	margin-bottom: 10px; 
+	border: 1px 
+	dashed #5a4109; 
+	border-radius: 5px; 
+	background-color: #fff5df;
+	font-family: YuGothic;
+	font-size: 14px;
+	padding: 20px;
+/*    width: 200px;
+*/
+
+}
+
+
+.two img {
+	width: 230px;
+	height:230px;
+	margin-bottom: 15px;
+	
+}
+
+.two {
+	display: flex;
+    justify-content:space-between;
+    padding: 64px 140px;
+
+}
+
+.two p {
+	
+	padding: 10px; 
+	margin-bottom: 10px; 
+	border: 1px 
+	dashed #5a4109; 
+	border-radius: 5px; 
+	background-color: #fff5df;
+	font-family: YuGothic;
+	font-size: 14px;
+	padding: 20px;
+
+    
+
+}
+
+
+
+.discography-title {
+	margin-top: 60px;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+.discography-image img {
+	float: left;
+	margin: 64px 14px;
+}
+
+.discography-content {
+	font-size: 20px;
+	padding-top: 80px;
+	float: left;
+	margin-left: 60px;
+	font-family: YuGothic;
+	color: #5a4109;
+
+/* ================================================ */
+/*書く*/
+/* ================================================ */
+}
+
+.button img {
+	float: left;
+	padding-top: 50px;
+	margin: 1px;
+}
+
+.button {
+	background-color: #DC143C;
+	transition-property: all;
+	transition: 0.2s linear;
+ }
+
+.button a:hover {
+background-color: #9e0e2b;
+}
+
+
+.photo-title {
+	text-align: center;
+	width: 100%;
+}
+
+.photo-images {
+	margin-top: 64px;
+	text-align: center;
+}
+
+}
+
+/* ================================================ */
+/*フッター*/
+/* ================================================ */
+
+
+
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+
+.footer {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+}
