@@ -5,40 +5,60 @@
 /*               全体設定                */
 /* ================================================ */
 
+* {
+  box-sizing: border-box;
+}
+
+
 body {
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif, Verdana, "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
 	background-color: #c0dde5;
+	margin: 0 auto;
+	padding: 0 auto;
+	min-height: 100vh;
 }
+
+
 
 
 /* ================================================ */
 /*ヘッダー：など場所をこまめに書く！*/
 /* ================================================ */
 
-/*===============================================
-●style.css 画面の横幅が769px以上
-===============================================*/
-@media screen and (min-width: 769px){
-
-
-
 
 .inner {
 	margin: 0 auto;
-	width:1000px;
+	max-width:1000px;
+	text-align: center;
 }
 
 .main-header img {
-	margin-top: 16px;
-	margin-right: 50px;
+	display: flex;
+	margin-top: 20px;
+	max-width: 400px;
+	width: 100%;
+	height: auto;
 
 }
 
 .topbutton {
-	display: flex;
-	justify-content:space-between;
-	padding: 20px;
 
+	text-align: center;
+	display: flex;
+	justify-content:space-around;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align-items: center;
+
+}
+
+
+iframe {
+	max-width: 1000px;
+	max-height: 600px;
+	text-align: center;
+	width: calc(100vw - 30px);
+  	height: calc(960 / 1692 * 100vw);
 
 }
 
@@ -47,6 +67,30 @@ body {
 	clear: both;
 }
 
+.inner-second {
+	ext-align: center;
+
+}
+
+
+
+/*===============================================
+●style.css 画面の横幅が670px以下
+===============================================*/
+
+
+@media screen and (max-width: 670px) {
+
+	.main-header img {
+		max-width: 200px;
+			}
+
+	.topbutton img {
+		width: 55px;
+		height: auto;
+	}
+
+
 }
 
 
@@ -55,7 +99,7 @@ body {
 /*===============================================
 ●style.css 画面の横幅が769px以上
 ===============================================*/
-@media screen and (min-width: 769px){
+
 
 .content-title  {
 	margin-top: 80px;
@@ -77,10 +121,10 @@ body {
 .discription {
 	margin-top: 64px;
 	background-image: url(images/about-img.png);
-	width:50%;
+	width:100%;
 	background-size: 500px;
 	background-repeat: no-repeat;
-	padding: 90px 0 0 60px;
+	
 
 
 }
@@ -90,7 +134,7 @@ body {
 	font-size: 20px;
 	margin: 0;
 	padding: 0px;
-
+	margin-top: 50px;
 	
 	
 
@@ -99,6 +143,32 @@ body {
 .about-section {
 	display: flex;
 }
+
+
+/*===============================================
+●style.css 画面の横幅が670px以下
+===============================================*/
+
+
+@media screen and (max-width: 670px) {
+
+	.content-title img {
+		width: 400px;
+  		overflow: visible;
+  }
+
+	.photo-slider img {
+		display: none;
+	}
+
+	.discription p {
+		font-size: 14px;
+		margin-top: 22px;
+	}
+
+	.discription  {
+		background-image: none;
+	}
 
 }
 
@@ -112,7 +182,7 @@ body {
 /*===============================================
 ●style.css 画面の横幅が769px以上
 ===============================================*/
-@media screen and (min-width: 769px){
+
 
 .info-title {
 	margin-top: 64px;
@@ -199,7 +269,7 @@ body {
 
 .discography-image img {
 	float: left;
-	margin: 64px 14px;
+	margin: 24px 14px;
 }
 
 .discography-content {
@@ -210,15 +280,29 @@ body {
 	font-family: YuGothic;
 	color: #5a4109;
 
+}
+
+
+.discography-content p {
+	text-align: center;
+}
+
+
+.button {
+	text-align: center;
+}
+
+
+
 /* ================================================ */
 /*書く*/
 /* ================================================ */
-}
 
 .button img {
-	float: left;
+	clear: left;
 	padding-top: 50px;
 	margin: 1px;
+
 }
 
 .button {
@@ -242,7 +326,80 @@ background-color: #9e0e2b;
 	text-align: center;
 }
 
+
+
+
+/*===============================================
+●style.css 画面の横幅が670px以下
+===============================================*/
+
+
+@media screen and (max-width: 670px) {
+
+	.info-title img {
+		width: 400px;
+  		overflow: visible;
+	}
+	
+	.three {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: column;
+	    height: 200px;
+	}
+
+
+	.two {
+		margin-top: 890px;
+		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: column;
+	    height: 20px;
+	}
+
+
+	.discography-title img {
+
+		margin-top: 800px;
+		width: 400px;
+	  	overflow: visible;
+
+	}
+
+	.discography-image {
+		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    flex-direction: column;
+	    height: 20px;
+
+	}
+
+
+	.discography-content {
+		font-size: 20px;
+		padding-top: 30px;
+		margin-right: 50px;
+
+	}
+
+	.button {
+		margin-bottom: 20px;
+	}
+
+
+	.photo-title img {
+		display:none;
+	}
+
+	.photo-images img {
+		display: none;
+	}
+
 }
+
 
 /* ================================================ */
 /*フッター*/
@@ -256,10 +413,28 @@ background-color: #9e0e2b;
 @media screen and (min-width: 769px){
 
 .footer {
-	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 
 }
 
+
+
 }
+
+
+/*===============================================
+●style.css 画面の横幅が670px以下
+===============================================*/
+
+
+@media screen and (max-width: 670px) {
+	.footer {
+		margin-top: 1080px;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
