@@ -30,6 +30,7 @@ body {
 	margin: 0 auto;
 	max-width:1000px;
 	text-align: center;
+
 }
 
 .main-header img {
@@ -145,7 +146,6 @@ iframe {
 }
 
 .discription p {
-	font-family: YuGothic;
 	font-size: 20px;
 	margin: 0;
 	padding: 0px;
@@ -166,6 +166,11 @@ iframe {
 
 
 @media screen and (max-width: 670px) {
+
+	.inner {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
 
 	.content-title img {
 		width: 370px;
@@ -233,7 +238,6 @@ iframe {
 	dashed #5a4109; 
 	border-radius: 5px; 
 	background-color: #fff5df;
-	font-family: YuGothic;
 	font-size: 14px;
 	padding: 20px;
 /*    width: 200px;
@@ -264,7 +268,6 @@ iframe {
 	dashed #5a4109; 
 	border-radius: 5px; 
 	background-color: #fff5df;
-	font-family: YuGothic;
 	font-size: 14px;
 	padding: 20px;
 
@@ -284,15 +287,19 @@ iframe {
 .discography-image img {
 	float: left;
 	margin-top: 30px;
-
 }
+
+.img-1 {
+	margin-right:10px;
+}
+
+
 
 .discography-content {
 	font-size: 20px;
 	padding-top: 80px;
 	float: left;
 	margin-left: 60px;
-	font-family: YuGothic;
 	color: #5a4109;
 
 }
@@ -433,6 +440,7 @@ background-color: #9e0e2b;
 	.img-1 {
 		margin-top: 30px;
 		margin-bottom: 30px;
+
 	}
 
 
