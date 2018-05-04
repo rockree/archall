@@ -275,7 +275,6 @@ iframe {
 
 
 .discography-title {
-	margin-top: 60px;
 	text-align: center;
 	width: 100%;
 
@@ -284,7 +283,7 @@ iframe {
 
 .discography-image img {
 	float: left;
-	margin: 24px 14px;
+	
 }
 
 .discography-content {
@@ -390,6 +389,11 @@ background-color: #9e0e2b;
 	    flex-direction: column;
 	    height: 20px;
 
+	}
+
+	.img-1 {
+		margin-top: 70px;
+		margin-bottom: 30px;
 	}
 
 
